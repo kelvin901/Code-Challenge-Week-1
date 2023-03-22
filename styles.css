@@ -1,0 +1,15 @@
+*{
+    background-color: beige;
+}
+section{
+    text-align:justify;
+    display: block;
+    
+}
+#netSalaryCalculator{
+    display: inline-table;
+    text-align: justify;
+}
+.netsal{
+    padding-inline-start: 70px;
+}
