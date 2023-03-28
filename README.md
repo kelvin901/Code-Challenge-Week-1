@@ -1,58 +1,31 @@
 # Code-Challenge-Week-1
 #Author Kelvin N Waweru
-This Programme is calculating Net Salary
-It is also generating Students grade in terms if marks
-It is also generating speed.
-<!-- The html document for the code challenge -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <script src="./index.js"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    
-    <title>Code Challenge - Week 1</title>
-</head>
-<body>
-<!-- Code challenge 1 section -->
-
-<section id="studentGradeGenerator">
-    <h3>Student Grade Generator</h3>
-    <label for="marks">Enter Marks  </label>
-    <input type="text" id="marks" >
-    <button onclick="gradeGenerator ()"> Generate</button>
-    <p><span id="gradeOutput"></span></p>
-    <br> <br>
-</section>
-<!-- Code challenge 2 section -->
-<section id="speedDetector">
-    <h3>Speed Detector</h3>
-    <label for="speed">Enter Speed  </label>  
-    <input type="number" id="speed">
-    <button onclick="speedDetector ()">Detect</button>
-    <p><span id="speedOutput"></span></p>  
-    <br><br>
-</section>
-<!-- Code challenge 3 section -->
-<section id="netSalaryCalculator">
-    <h3>Net Salary Calculator</h3>
-    <label for="basicSalary">Enter Basic Salary</label>
-    <input type="number" id="basicSalary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
-    <label for="benefits">Enter Benefits</label>
-    <input type="number" id="benefits">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
-    <div class="netsal">
-    <button onclick="calculateSalary ()" style="text-align: left;"> Calculate Net Salary</button> <br>
-    <p>Gross Salary: <span id="grossSalary"></span></p>
-    <p>NSSF: <span id="nssfContribution"></span></p>
-    <p>NHIF: <span id="nhif"></span></p>
-    <p>Payee: <span id="payee"></span></p>
-    <p>Net Salary: <span id="netSalary"></span></p>
-    </div>
-   
-</section>
-    
-</body>
-
-</html>
+Project Title: Grade , Salary and Demerit points Calculator
+This project is designed to :
+1. Calculate the grade of a student based on their marks,
+2. Calculate the net salary and deductions for an employee given their basic salary and benefits.
+3. Calculate the demerit points based on by how much one exceeded the speed limit.
+Features
+Grade Calculator
+Takes in the marks of the student as input.
+Calculates the grade of the student based on the marks.
+The grading system is customizable and can be updated easily.
+Demerit Points Calculator
+Takes in the speed limit and the actual speed of the driver as input.
+Calculates the number of demerit points to be awarded based on how much the driver exceeded the speed limit.
+Salary Calculator
+Takes in the basic salary and benefits of an employee as input.
+Calculates the gross salary, NSSF, NHIF, and payee.
+Deductions are made based on NSSF, NHIF, and payee to arrive at the net salary.
+Technologies Used
+JavaScript
+HTML
+CSS
+How to Use
+Clone the repository to your local machine using git clone.
+Open the index.html file in your web browser.
+Enter the necessary input values in the respective fields.
+Click on the relevant calculation button to get the results.
+Credits
+License
+This project is licensed under the MIT License - see the LICENSE file for details..
